@@ -1,0 +1,13 @@
+# Specification only. Each teammate implements sensor creation and callbacks.
+rgb:
+  width: 800
+  height: 600
+  fov: 90.0
+  sensor_tick: 0.05
+  transform:
+    x: 1.5
+    y: 0.0
+    z: 2.4
+    pitch: -10.0
+    yaw: 0.0
+    roll: 0.0

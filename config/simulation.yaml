@@ -1,0 +1,16 @@
+# Shared environment contract. Driving and storage policies belong to team code.
+server:
+  host: 127.0.0.1
+  port: 2000
+  timeout_seconds: 60.0
+world:
+  map: Town03
+  synchronous_mode: true
+  fixed_delta_seconds: 0.05
+  seed: 42
+  weather: ClearNoon
+ego:
+  blueprint: vehicle.tesla.model3
+  spawn_index: 0
+validation:
+  frames: 10
